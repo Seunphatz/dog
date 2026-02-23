@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ANMimal Adventure</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ANMimal.css">
+</head>
+<body>
+
+<h1>🐾 ANMimal Adventure 🐾</h1>
+<p>Play on keyboard, mouse, or touch!</p>
+<p>Score: <span id="score">0</span></p>
+
+<canvas id="gameCanvas" width="400" height="400"></canvas>
+
+<div class="controls">
+    <button onclick="move('up')">⬆️</button><br>
+    <button onclick="move('left')">⬅️</button>
+    <button onclick="move('down')">⬇️</button>
+    <button onclick="move('right')">➡️</button>
+</div>
+
+<script src="ANMimal.js"></script>
+
+</body>
+</html>
